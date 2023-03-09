@@ -7,16 +7,10 @@
 
 ## step
 1. Install composer
-2. Clone this project from git
-3. Open this project and generate key 
-4. run in cmd 'php artisan migrate:fresh'
-
-
-
-### To run migration
-1. create a database with the name surplus
-2. run in cmd 'php artisan migrate:fresh'
-
-
-### Running the Project
-``` docker-compose up --build -d
+2. Open project
+3. run in cmd 'composer install'
+4. rename file .env.example to .env
+5. generate key run in cmd 'php artisan key:generate'
+6. create new database in mySQL with database name 'surplus'
+7. run migration in cmd 'php artisan migrate:fresh'
+8. to run this project, run in cmd 'php artisan serve'
